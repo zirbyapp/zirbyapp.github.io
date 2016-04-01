@@ -1,81 +1,20 @@
 var conversation;
 
-function unassign() {
-  Front.unassign(conversation);
-}
-
-function toggleArchive() {
-  Front.toggleArchive(conversation);
-}
-
-function toggleTrashed() {
-  Front.toggleTrashed(conversation);
-}
-
-function reply() {
-  Front.reply({
-    body: 'Template reply',
-    subject: 'Template subject',
-  }, false, conversation);
-}
-
-function alertDialog() {
-  Front.dialog('alert', {
-    title: 'I\'m an alert dialog',
-    message: 'You are now alerted',
-  }, function () {
-    console.log('Alert closed');
-  });
-}
-
-function confirmDialog() {
-  Front.dialog('confirm', {
-    title: 'I\'m a confirm dialog',
-    message: 'Do you confirm',
-    okTitle: 'OK Button',
-    cancelTitle: 'Cancel Button'
-  }, function (confirmed) {
-    if (confirmed)
-      console.log('User confirmed');
-    else
-      console.log('User cancelled');
-  });
-}
-
-function promptDialog() {
-  Front.dialog('prompt', {
-    title: 'I\'m a prompt dialog',
-    message: 'Please enter something'
-  }, function (data) {
-    if (data)
-      console.log('User input :', data);
-    else
-      console.log('User cancelled');
-  });
-}
-
-function fetchTeammates() {
-  Front.fetchAllowedTeammates(function (teammates) {
-    if (!teammates)
-      return;
-
-    console.log(teammates);
-  });
-}
-
-function fetchInboxes() {
-  Front.fetchInboxes(function (inboxes) {
-    if (!inboxes)
-      return;
-
-    console.log(inboxes);
-  });
-}
+GET /contact HTTP/1.1
+Host: api2.frontapp.com
+Authorization : Bearer <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiY29tcGFueSIsImNvbXBhbnkiOiJ6aXJieSJ9.U_vOaYwd-zSLXfuiyjHAVDjbNb-RbgS6j8LcAT3DUsw>
 
 function fetchNotes() {
   Front.fetchNotes(function (notes) {
 
     console.log(notes);
+  });
+}
+
+function FetchContact() {
+  Front.on('conversation', function (data) {
+    console.log('Contact', data.contact);
+    // triggered when a conversation is loaded
   });
 }
 
@@ -85,4 +24,14 @@ Front.on('conversation', function (data) {
   console.log('Message', data.message);
   console.log('OtherMessages', data.otherMessages);
   conversation = data.conversation;
+});
+
+
+Front.on('no_conversation', function () {
+    // triggered when no conversation is selected
+});
+
+Front.on('panel_visible', function (visible) {
+    // triggered when your plugin becomes visible or invisible
+    // you can also test Front.visible
 });
