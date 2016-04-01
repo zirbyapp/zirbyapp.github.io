@@ -4,9 +4,14 @@ GET /contact HTTP/1.1
 Host: api2.frontapp.com
 Authorization : Bearer <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiY29tcGFueSIsImNvbXBhbnkiOiJ6aXJieSJ9.U_vOaYwd-zSLXfuiyjHAVDjbNb-RbgS6j8LcAT3DUsw>
 
+
+curl --include \
+     --header "Authorization: Bearer {eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiY29tcGFueSIsImNvbXBhbnkiOiJ6aXJieSJ9.U_vOaYwd-zSLXfuiyjHAVDjbNb-RbgS6j8LcAT3DUsw}" \
+     --header "Accept: application/json" \
+'https://api2.frontapp.com/contacts/${CONTACT_ID}'
+
 function fetchNotes() {
   Front.fetchNotes(function (notes) {
-
     console.log(notes);
   });
 }
