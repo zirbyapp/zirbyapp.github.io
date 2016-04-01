@@ -74,8 +74,6 @@ function fetchInboxes() {
 
 function fetchNotes() {
   Front.fetchNotes(function (notes) {
-    if (!notes)
-      return;
 
     console.log(notes);
   });
