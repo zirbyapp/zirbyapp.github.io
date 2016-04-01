@@ -72,6 +72,14 @@ function fetchInboxes() {
   });
 }
 
+function fetchNotes() {
+  Front.fetchNotes(function (notes) {
+    if (!notes)
+      return;
+    
+    console.log(notes);
+});
+
 Front.on('conversation', function (data) {
   console.log('Conversation', data.conversation);
   console.log('Contact', data.contact);
