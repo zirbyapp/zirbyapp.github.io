@@ -50,6 +50,10 @@ body, td, div, span, p {
 	border:1px solid #0099FF!important;
 }
 
+.google-visualization-table {
+	border: 0px none !important;
+}
+
 
 /* filtered results information : last - first / total number of result */
 .count {
