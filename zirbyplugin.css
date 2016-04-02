@@ -48,6 +48,7 @@ body, td, div, span, p {
 
 .google-visualization-table-th th {
 	border: 0px none !important;
+	background-color: #333333;
 }
 
 
