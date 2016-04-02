@@ -80,7 +80,7 @@ body, td, div, span, p {
   display:none !important;
 }
 
-.controlers-filters div {
+.controlers-filters {
     display: inline-block;
     vertical-align: top;
     padding-bottom: 5px !important;
