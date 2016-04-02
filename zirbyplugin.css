@@ -31,7 +31,7 @@ body, td, div, span, p {
 
 #controlersPanel {
 	text-align: center;
-	background-color: #333333;
+	background-color: #333333!important;
 }
 
 #middleContainer {
