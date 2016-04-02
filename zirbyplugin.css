@@ -19,7 +19,7 @@ body, td, div, span, p {
 /* selected/hovered row in a TABLE view */
 .google-visualization-table-tr-sel td,
 .google-visualization-table-tr-over td {
-	background-color: #ffffff!important;
+	background-color: #333333!important;
 }
 
 /*** Google visualization override ***/
@@ -71,7 +71,7 @@ body, td, div, span, p {
 }
 
 .google-visualization-table-table td {
-	background-color: #ffffff;
+	background-color: #333333;
 	border: 0px none !important;
 }
 
