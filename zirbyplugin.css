@@ -32,7 +32,7 @@ body, td, div, span, p {
 /* Table view header */
 .google-visualization-table-table .gradient,
 .google-visualization-table-div-page .gradient {
-	background: #ffffff !important;
+	background: #333333 !important;
 	color:#ffffff;
 }
 
