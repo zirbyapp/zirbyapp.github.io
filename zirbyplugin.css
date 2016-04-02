@@ -83,8 +83,8 @@ body, td, div, span, p {
 .controlers-filters div {
     display: inline-block;
     vertical-align: top;
-    padding-bottom: 5px;
-    padding-right: 0px;
+    padding-bottom: 5px !important;
+    padding-right: 0px !important;
 }
 
 #controlersPanel {
