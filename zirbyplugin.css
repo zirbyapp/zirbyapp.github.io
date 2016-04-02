@@ -52,6 +52,7 @@ body, td, div, span, p {
 td .google-visualization-table-td {
 	background-color: #333333!important;
 	padding: 0px!important;
+	border: 0px none !important;
 }
 
 /* filtered results information : last - first / total number of result */
