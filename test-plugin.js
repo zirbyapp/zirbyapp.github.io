@@ -7,6 +7,10 @@ function FetchContact() {
   });
 }
 
+$(document).ready(function(){
+    // Do stuff here, including _calling_ codeAddress(), but not _defining_ it!
+});
+
 Front.on('conversation', function (data) {
   console.log('Conversation', data.conversation);
   console.log('Contact', data.contact);
