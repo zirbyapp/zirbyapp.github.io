@@ -62,18 +62,17 @@ body, td, div, span, p {
 
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
-	border-bottom:1px solid #d9d9d9!important;
+	border:0px none #a0a0a0!important;
 	background-color: #efefef;
-	color: #ffffff;
+	color: #333333;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	border-bottom:1px solid #b9b9b9!important;
-	border-top:0px solid #a0a0a0!important;
-	color: #ffffff;
+	border:0px none #a0a0a0!important;
+	color: #222222;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
-	border:1px solid #0099FF!important;
+	border:0px 0px 1px 0px solid #007FFF!important;
 	color: #ffffff;
 
 }
