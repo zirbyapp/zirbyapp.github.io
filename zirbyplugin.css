@@ -31,9 +31,15 @@ body, td, div, span, p {
 
 #controlersPanel {
 	text-align: center;
-	background-color: #333333!important;
 }
 
 #middleContainer {
+
+}
+
+#topContainer {
+		background-color: #333333!important;
+		margin-bottom: 10px!important;
+		margin-top: 10px!important;
 
 }
