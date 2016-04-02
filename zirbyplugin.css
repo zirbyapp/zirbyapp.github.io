@@ -80,12 +80,7 @@ body, td, div, span, p {
   display:none !important;
 }
 
-.controlers-filters div {
-    display: inline-block;
-    vertical-align: top;
-    padding-bottom: 5px !important;
-    padding-right: 0px !important;
-}
+
 
 #controlersPanel {
 	text-align: center;
@@ -94,7 +89,7 @@ body, td, div, span, p {
 #topContainer {
 		background-color: #333333 !important;
 		margin-bottom: 0px !important;
-		padding: 5px !important;
+		padding-top: 10px !important;
 }
 
 #middleContainer {
