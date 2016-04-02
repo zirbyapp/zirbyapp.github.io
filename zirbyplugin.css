@@ -71,7 +71,7 @@ body, td, div, span, p {
 }
 
 .google-visualization-table-table td {
-	background-color: #333333;
+	background-color: #ffffff;
 	border: 0px none !important;
 }
 
@@ -85,9 +85,8 @@ body, td, div, span, p {
 }
 
 #topContainer {
-		background-color: #333333!important;
-		margin-bottom: 0px!important;
-		padding-top: 10px!important;
+		background-color: #333333 !important;
+		margin-bottom: 0px !important;
 }
 
 #middleContainer {
