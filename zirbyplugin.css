@@ -43,7 +43,7 @@ body, td, div, span, p {
 
 .google-visualization-table-table th {
 	border: 0px none !important;
-	background-color: #ffffff;
+	background-color: #333333;
 }
 
 .google-visualization-table-th th {
