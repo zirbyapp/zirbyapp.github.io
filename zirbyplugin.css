@@ -64,17 +64,17 @@ body, td, div, span, p {
 .google-visualization-controls-stringfilter INPUT {
 	border:0px solid #d9d9d9!important;
 	color:#222;
-	border-radius: 15px!important;
+	border-radius: 5px !important;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
 	border:0px solid #b9b9b9!important;
 	border-top:0px solid #a0a0a0!important;
-	border-radius: 15px important;
+	border-radius: 5px !important;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
 	border:1px solid #0099FF!important;
-	border-radius: 15px!important;
+	border-radius: 5px !important;
 }
 
 /* filtered results information : last - first / total number of result */
