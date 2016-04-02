@@ -26,11 +26,3 @@ body, td, div, span, p {
 #controlersPanel {
 	text-align: center;
 }
-
-#sidebar{
-	width:10%!important;
-	margin-left:0px!important;
-}
-#parentChart1{
-	width:100%!important;
-}
