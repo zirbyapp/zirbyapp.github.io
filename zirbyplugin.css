@@ -23,7 +23,7 @@ body, td, div, span, p {
 }
 
 .google-visualization-table-table .gradient {
-	padding: 0px;
+	height: 0px;
 }
 
 /* filtered results information : last - first / total number of result */
@@ -37,13 +37,7 @@ body, td, div, span, p {
 	text-align: center;
 }
 
-#middleContainer {
-
-}
-
 #topContainer {
-		background-color: #333333!important;
-		margin-bottom: 0px!important;
-		padding: 10px 0px 10px 0px!important;
-
+		background-color: #333333 !important;
+		margin-bottom: 0px !important;
 }
