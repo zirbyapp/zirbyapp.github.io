@@ -65,7 +65,7 @@ body, td, div, span, p {
 .google-visualization-table-table td {
 	background-color: #ffffff;
 	border: 0px none !important;
-	padding: 0px !important;
+	padding: 0px 0px !important;
 }
 
 
