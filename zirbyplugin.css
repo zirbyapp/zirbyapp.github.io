@@ -22,6 +22,10 @@ body, td, div, span, p {
 	background-color: #ffffff!important;
 }
 
+.google-visualization-table-table .gradient {
+	padding: 0px;
+}
+
 /* filtered results information : last - first / total number of result */
 .count {
   border-top:1px solid #E5E5E5;
