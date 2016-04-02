@@ -63,7 +63,6 @@ body, td, div, span, p {
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
 	border:0px solid #d9d9d9!important;
-	color:#222;
 	border-radius: 5px !important;
 	background-color: #333333;
 }
