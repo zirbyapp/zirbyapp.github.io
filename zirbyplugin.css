@@ -28,6 +28,9 @@ body, td, div, span, p {
 .google-visualization-table-page-numbers {
 	display:none !important;
 }
+.google-visualization-table-tr-head {
+	display:none !important;
+}
 
 /* Table view header */
 .google-visualization-table-table .gradient,
