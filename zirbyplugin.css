@@ -58,9 +58,14 @@ body, td, div, span, p {
   display:none !important;
 }
 
-.google-visualization-table-td td th {
+.google-visualization-table-td td {
 	background-color: #ffffff;
 	border: 0px none !important;
+}
+
+.google-visualization-table-table th, 
+.google-visualization-table-table td {
+	border-width: 0px none !important;
 }
 
 #controlersPanel {
