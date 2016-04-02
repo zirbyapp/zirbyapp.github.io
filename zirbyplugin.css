@@ -32,8 +32,31 @@ body, td, div, span, p {
 /* Table view header */
 .google-visualization-table-table .gradient,
 .google-visualization-table-div-page .gradient {
-	background: #333333 !important;
-	color:#333333;
+	background: #ffffff !important;
+	color:#ffffff;
+}
+
+.google-visualization-table td {
+	border: 0px none !important;
+	padding: 0px !important;
+}
+
+.google-visualization-table-table th {
+	border: 0px none !important;
+}
+
+.google-visualization-table-th th {
+	border: 0px none !important;
+}
+
+
+.google-visualization-table-table td {
+	background-color: #ffffff;
+	border: 0px none !important;
+}
+
+.google-visualization-table div {
+	border: 0px none !important;
 }
 
 /** StringFilter **/
@@ -50,19 +73,6 @@ body, td, div, span, p {
 	border:1px solid #0099FF!important;
 }
 
-.google-visualization-table td {
-	border: 0px none !important;
-	padding: 0px !important;
-}
-
-.google-visualization-table-table th {
-	border: 0px none !important;
-}
-
-.google-visualization-table-th th {
-	border: 0px none !important;
-}
-
 /* filtered results information : last - first / total number of result */
 .count {
   border-top:1px solid #E5E5E5;
@@ -70,14 +80,6 @@ body, td, div, span, p {
   display:none !important;
 }
 
-.google-visualization-table-table td {
-	background-color: #ffffff;
-	border: 0px none !important;
-}
-
-.google-visualization-table div {
-	border: 0px none !important;
-}
 
 
 #controlersPanel {
