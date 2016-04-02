@@ -30,8 +30,7 @@ body, td, div, span, p {
 }
 
 /* Table view header */
-.google-visualization-table-table .gradient,
-.google-visualization-table-div-page .gradient {
+.google-visualization-table-table .gradient {
 	background: #333333 !important;
 	color:#ffffff;
 }
