@@ -60,6 +60,7 @@ body, td, div, span, p {
 
 .google-visualization-table-td td {
 	background-color: #ffffff;
+	border: 0px none !important;
 }
 
 #controlersPanel {
