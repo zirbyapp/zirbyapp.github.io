@@ -27,12 +27,12 @@ body, td, div, span, p {
 	text-align: center;
 }
 
-/*** #sidebar{
+#sidebar{
 	width:80%!important;
 	margin-left:0px!important;
 }
 #parentChart1{
-	width:20%!important;
+	width:100%!important;
 }
 
 /* filtered results information : last - first / total number of result */
