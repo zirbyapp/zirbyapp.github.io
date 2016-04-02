@@ -22,8 +22,18 @@ body, td, div, span, p {
 	background-color: #ffffff!important;
 }
 
-.google-visualization-table-table {
-	height: 0px;
+/*** Google visualization override ***/
+
+/* page number display */
+.google-visualization-table-page-numbers {
+	display:none !important;
+}
+
+/* Table view header */
+.google-visualization-table-table .gradient,
+.google-visualization-table-div-page .gradient {
+	background: #333333 !important;
+	color:#333333;
 }
 
 /* filtered results information : last - first / total number of result */
