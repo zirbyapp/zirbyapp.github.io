@@ -1,9 +1,5 @@
 var conversation;
 
-GET /contact HTTP/1.1
-Host: api2.frontapp.com
-Authorization : Bearer <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiY29tcGFueSIsImNvbXBhbnkiOiJ6aXJieSJ9.U_vOaYwd-zSLXfuiyjHAVDjbNb-RbgS6j8LcAT3DUsw>
-
 function FetchContact() {
   Front.on('conversation', function (data) {
     console.log('Contact', data.contact);
