@@ -49,6 +49,10 @@ body, td, div, span, p {
 	border:1px solid #0099FF!important;
 }
 
+.google-visualization-table-td {
+	background-color: #333333;
+}
+
 /* filtered results information : last - first / total number of result */
 .count {
   border-top:1px solid #E5E5E5;
