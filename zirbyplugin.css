@@ -64,15 +64,17 @@ body, td, div, span, p {
 .google-visualization-controls-stringfilter INPUT {
 	border-bottom:1px solid #d9d9d9!important;
 	background-color: #222222;
+	color: #ffffff;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
 	border-bottom:1px solid #b9b9b9!important;
 	border-top:0px solid #a0a0a0!important;
-
+	color: #ffffff;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
 	border:1px solid #0099FF!important;
+	color: #ffffff;
 
 }
 
