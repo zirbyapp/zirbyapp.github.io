@@ -86,7 +86,8 @@ body, td, div, span, p {
 
 #topContainer {
 		background-color: #333333 !important;
-		margin-top: 10px !important;
+		margin-bottom: 0px !important;
+		padding-top: 10px !important;
 }
 
 #middleContainer {
