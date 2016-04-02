@@ -50,7 +50,8 @@ body, td, div, span, p {
 }
 
 .google-visualization-table-td {
-	background-color: #333333;
+	background-color: #333333!important;
+	padding: 0px!important;
 }
 
 /* filtered results information : last - first / total number of result */
