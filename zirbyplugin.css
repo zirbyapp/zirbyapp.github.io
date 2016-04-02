@@ -42,11 +42,11 @@ body, td, div, span, p {
 	color:#222;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	border:0px solid #b9b9b9;
-	border-top:0px solid #a0a0a0;
+	border:0px solid #b9b9b9!important;
+	border-top:0px solid #a0a0a0!important;
 }
 .google-visualization-controls-stringfilter INPUT:focus {
-	border:1px solid #0099FF;
+	border:1px solid #0099FF!important;
 }
 
 /* filtered results information : last - first / total number of result */
