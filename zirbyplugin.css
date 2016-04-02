@@ -63,17 +63,18 @@ body, td, div, span, p {
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
 	border:0px none #a0a0a0!important;
-	background-color: #efefef;
+	background-color: #ffffff;
 	color: #333333;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
 	border:0px none #a0a0a0!important;
-	color: #222222;
+	color: #333333;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
 	border:0px 0px 1px 0px solid #007FFF!important;
-	color: #ffffff;
+	background-color: #333333;
+	color: #007FFF;
 
 }
 
