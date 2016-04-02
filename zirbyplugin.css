@@ -50,7 +50,7 @@ body, td, div, span, p {
 	border:1px solid #0099FF!important;
 }
 
-.google-visualization-table td{
+.google-visualization-table td th{
 	border: 0px none !important;
 	padding: 0px !important;
 }
