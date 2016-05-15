@@ -88,7 +88,7 @@ body, td, div, span, p {
 .controlers-filters {
 	padding-bottom: -10px;
 	padding-right: -8px;
-	width:30%;
+
 }
 
 
@@ -96,6 +96,7 @@ body, td, div, span, p {
 #controlersPanel {
 	display: inline;
 	text-align: center;
+	width: 100%;
 }
 
 #topContainer {
