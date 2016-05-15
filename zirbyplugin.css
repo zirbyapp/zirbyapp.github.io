@@ -101,6 +101,8 @@ body, td, div, span, p {
 #topContainer {
 		background-color: #ffffff !important;
 		margin-bottom: 0px !important;
+		margin-left: 2% !important;
+		margin-right: 2% !important;
 		padding-top: 0px !important;
 }
 
