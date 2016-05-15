@@ -38,6 +38,7 @@ body, td, div, span, p {
 .google-visualization-table td {
 	border: 0px none !important;
 	padding: 0px !important;
+	vertical-align: top;
 }
 
 .google-visualization-table-table th {
