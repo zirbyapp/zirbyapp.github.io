@@ -31,7 +31,7 @@ body, td, div, span, p {
 
 /* Table view header */
 .google-visualization-table-table .gradient {
-	background: #333333 !important;
+	background: #f3f3f3 !important;
 	color:#ffffff;
 }
 
@@ -42,12 +42,12 @@ body, td, div, span, p {
 
 .google-visualization-table-table th {
 	border: 0px none !important;
-	background-color: #333333;
+	background-color: #f3f3f3;
 }
 
 .google-visualization-table-th th {
 	border: 0px none !important;
-	background-color: #333333;
+	background-color: #f3f3f3;
 }
 
 
