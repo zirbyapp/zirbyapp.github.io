@@ -90,6 +90,12 @@ body, td, div, span, p {
 	margin-right: -10px;
 }
 
+thead {
+    display: none;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
 
 #controlersPanel {
 	display: inline;
