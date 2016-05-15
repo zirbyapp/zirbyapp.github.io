@@ -85,10 +85,10 @@ body, td, div, span, p {
   display:none !important;
 }
 
-#controlersFilters {
-	display: inline;
-	text-align: center;
+.controlers-filters {
 	padding: 0px !important;
+}
+
 
 
 #controlersPanel {
