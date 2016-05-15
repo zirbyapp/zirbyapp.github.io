@@ -69,12 +69,12 @@ body, td, div, span, p {
 	color: #333333;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	border:0px none #a0a0a0!important;
+	border:0.5px none #a0a0a0!important;
 	color: #333333;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
-	border:0px 0px 1px 0px solid #007FFF!important;
+	border:0.5px none #a0a0a0!important;
 	background-color: #f3f3f3;
 	color: #000000;
 
