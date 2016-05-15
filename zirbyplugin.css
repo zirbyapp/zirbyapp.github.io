@@ -85,8 +85,8 @@ body, td, div, span, p {
   display:none !important;
 }
 
-.controlers-filters.stringfilters {
-	padding: 0px 0px 0px 0px;
+.controlers-filters {
+	padding: 0px 0px 0px 0px !important;
 }
 
 
