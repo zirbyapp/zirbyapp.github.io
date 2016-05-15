@@ -86,8 +86,8 @@ body, td, div, span, p {
 }
 
 .controlers-filters {
-	padding-bottom: -10px;
-	padding-right: -10px;
+	margin-bottom: 0px;
+	margin-right: 0px;
 }
 
 
