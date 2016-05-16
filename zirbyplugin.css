@@ -82,7 +82,6 @@ thead {
 }
 
 .google-visualization-table-table th, .google-visualization-table-table td {
-    border: none #eee;
-    border-width: 0 0 0 0;
+    border: none !important;
     padding: 2px .35em;
 }
