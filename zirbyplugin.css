@@ -63,19 +63,19 @@ body, td, div, span, p {
 
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
-	min-width: 100px;
+	min-width: 100px !important;
 	border: 1px solid #a0a0a0!important;
 	background-color: #ffffff;
 	color: #333333;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	min-width: 100px;
+	min-width: 100px !important;
 	border: 1px solid #a0a0a0!important;
 	color: #333333;
 }
 
 .google-visualization-controls-stringfilter INPUT:focus {
-	min-width: 100px;
+	min-width: 100px !important;
 	border: 1px solid #a0a0a0!important;
 	background-color: #f3f3f3;
 	color: #000000;
