@@ -91,10 +91,7 @@ thead {
     padding: 2px .35em;
 }
 
-element.style {
-    padding: 0px 0px 0px 0px;
-    font-size: 14px;
-    width: 100%;
-    border-color: transparent;
-    vertical-align: top;
+.google-visualization-table-table * {
+    padding: 0 1px 0 1px !important;
+    margin: 0;
 }
