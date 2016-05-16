@@ -2,6 +2,7 @@
 
 /* filtered results information : last - first / total number of result */
 .count {
+  display: none;
 	border-top:1px solid #E5E5E5;
 	border-bottom:1px solid #E5E5E5;
 }
