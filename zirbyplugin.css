@@ -100,12 +100,12 @@ thead {
 
 
 #controlersPanel {
+	text-align: center;
 	display: inline;
 	width:100%;
 }
 
 #topContainer {
-		width: 100%;
 		background-color: #ffffff !important;
 		margin-bottom: 0px !important;
 		margin-left: 10px !important;
