@@ -32,6 +32,11 @@
 	color:#ffffff;
 }
 
+.google-visualization-table-tr-even,
+.google-visualization-table-tr-over {
+  background: #ffffff !important;
+}
+
 /*** Configuration of FILTERS ***/
 
 /** Labels of filters **/
