@@ -52,9 +52,9 @@
   line-height: 31px;
   padding-left: 4px;
   font-size: 14px;
-  margin: 2px 0;
+  text-align: center;
   height: 31px;
-  width: 290px !important;
+  width: 285px !important;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
 	border:1px solid #b9b9b9;
