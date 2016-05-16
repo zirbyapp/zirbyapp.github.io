@@ -32,8 +32,8 @@
 	color:#ffffff;
 }
 
-.google-visualization-table-tr-even,
-.google-visualization-table-tr-over {
+.google-visualization-table-even,
+.google-visualization-table-over {
   background: #ffffff !important;
 }
 
