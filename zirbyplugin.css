@@ -1,25 +1,22 @@
 /*** Awesome Table ***/
 
-/** Change default font **/
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-@font-face{
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato'), local('Lato'), url(https://fonts.googleapis.com/css?family=Lato) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+/* filtered results information : last - first / total number of result */
+.count {
+	border-top:1px solid #E5E5E5;
+	border-bottom:1px solid #E5E5E5;
 }
 
-/* Apply the new font */
-body, td, div, span, p {
-  font-family: "Lato"!important;
+/* loader progress bar */
+.loader {
+	background-color:#437AF8;
 }
 
-/* selected/hovered row in a TABLE view */
-.google-visualization-table-tr-sel td,
-.google-visualization-table-tr-over td {
-	background-color: #f3f3f3 !important;
+/** Card view specific **/
+.viewCards .google-visualization-table-table {
+	background-color: transparent!important;
+}
+.viewCards .google-visualization-table-td {
+	border-color: #D8D8D8!important;
 }
 
 /*** Google visualization override ***/
@@ -30,91 +27,179 @@ body, td, div, span, p {
 }
 
 /* Table view header */
-.google-visualization-table-table .gradient {
-	background: #f3f3f3 !important;
+.google-visualization-table-table .gradient,
+.google-visualization-table-div-page .gradient {
+	background: #3C81F8 !important
 	color:#ffffff;
 }
 
-.google-visualization-table td {
-	border: 0px none !important;
-	padding: 0px !important;
-	vertical-align: top;
+/* selected/hovered row in a TABLE view */
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-over td {
+	background-color: #D6E9F8!important;
 }
 
-.google-visualization-table-table th {
-	border: 0px none !important;
-	background-color: #ffffff;
-}
+/*** Configuration of FILTERS ***/
 
-.google-visualization-table-th th {
-	border: 0px none !important;
-	background-color: #fffff;
-}
-
-
-.google-visualization-table-table td {
-	background-color: #ffffff;
-	border: 0px none !important;
-}
-
-.google-visualization-table {
-	border: 0px none !important;
+/** Labels of filters **/
+.google-visualization-controls-label {
+	color:#333;
 }
 
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
-	min-width: 100px !important;
-	border: 1px solid #a0a0a0!important;
-	background-color: #ffffff;
-	color: #333333;
+	border:1px solid #d9d9d9!important;
+	color:#222;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	min-width: 100px !important;
-	border: 1px solid #a0a0a0!important;
-	color: #333333;
+	border:1px solid #b9b9b9;
+	border-top:1px solid #a0a0a0;
 }
-
 .google-visualization-controls-stringfilter INPUT:focus {
-	min-width: 100px !important;
-	border: 1px solid #a0a0a0!important;
-	background-color: #f3f3f3;
-	color: #000000;
-
+	border:1px solid #4d90fe;
 }
 
-/* filtered results information : last - first / total number of result */
-.count {
-  display:none !important;
+/** CategoryFilter **/
+.google-visualization-controls-categoryfilter .charts-menu-button,
+.google-visualization-controls-categoryfilter .charts-menu-button.charts-menu-button-hover,
+.google-visualization-controls-categoryfilter .charts-menu-button.charts-menu-button-active {
+	color:#444;
+	border:1px solid rgba(0,0,0,0.1);
+	background:none;
+	background:#f5f5f5;
+}
+.google-visualization-controls-categoryfilter LI{
+	background-color:#3C81F8!important;
+	color:#FFF;
+	height:25px;
+	vertical-align: middle;
+	border-radius: 5px;
+	line-height:25px;
+
+	}
+
+/* CategoryFilter & csvFilter hovered item in the dropdown */
+.charts-menuitem-highlight {
+	background-color:#437AF8!important;
+	border-color:#3C81F8!important;
+	color:#FFF;
 }
 
-.controlers-filters {
-	margin-bottom: -10px;
-	margin-right: -10px;
+/** NumberRangeFilter **/
+/* slider thumbs */
+.google-visualization-controls-slider-horizontal .google-visualization-controls-slider-thumb,
+.google-visualization-controls-slider-vertical .google-visualization-controls-slider-thumb {
+	background-color: #6D6E6E;
+	border: 1px solid #444444;
+}
+/* label showing the current thumb value */
+.google-visualization-controls-rangefilter-thumblabel {
+	color:#444444!important;
+}
+/* header */
+.google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+background: #437AF8 !important;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
-thead {
-    display: none;
-    vertical-align: middle;
-    border-color: inherit;
+.Name {
+line-height: 20px;
+font-size: 16px;
+color: #0896ff;
+font-weight: normal;
+}
+.City {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 5px 0 0 0;
+  color: #666;
+}
+.facility{
+  display:none;
+  width:35px;
+}
+img[data-facilities*="Parking"][data-facility="parking"]{
+  display:inline-block;
+}
+img[data-facilities*="WIFI"][data-facility="wifi"]{
+  display:inline-block;
+}
+img[data-facilities*="Gym"][data-facility="gym"]{
+  display:inline-block;
+}
+.google-visualization-controls-categoryfilter LI {
+  background-color: #437AF8!important;
 }
 
-
-#controlersPanel {
-	text-align: center;
-	display: inline;
-	width:100%;
+.google-visualization-controls-categoryfilter .charts-menu-inner-box {
+background-color: #437AF8!important;
+}
+.google-visualization-controls-slider-horizontal .google-visualization-controls-slider-thumb, .google-visualization-controls-slider-vertical .google-visualization-controls-slider-thumb {
+  background-color: #44444F!important;
+  border: 1px solid #44444F!important;
+}
+.google-visualization-controls-slider-horizontal {
+  border: 1px solid #DCDCDC!important;
+}
+.google-visualization-controls-slider-handle {
+  background-color: #DCDCDC!important;
 }
 
-#topContainer {
-		background-color: #ffffff !important;
-		margin-bottom: 0px !important;
-		margin-left: 10px !important;
-		padding-top: 0px !important;
+.google-visualization-controls-label {
+font-weight: 500!important;	
 }
 
-#middleContainer {
-		background-color: #f3f3f3 !important;
-		border: 0px!important;
-		margin-top: 10px !important;
-		margin-bottom: 10px !important;
+.charts-menuitem-highlight>.charts-menuitem-content {
+color: white;
+}
+.rating{
+height:20px;
+display:inline-block;
+background-image: url('https://sites.google.com/site/scriptsexamples/rating-star.png');
+background-repeat: repeat-x;
+}
+div[data-getrating="rating1"]{
+  width:15px;
+}
+div[data-getrating="rating2"]{
+  width:35px;
+}
+div[data-getrating="rating3"]{
+  width:55px;
+} 
+div[data-getrating="rating4"]{
+  width:75px;
+} 
+div[data-getrating="rating5"]{
+  width:95px;
+  }
+  @media (max-width: 550px) {
+  .mobile {
+margin: 10px auto 10px auto!important;
+float:none;
+  }
+.mobile-bis {
+margin : 10px!important;
+}
+div.google-visualization-controls-slider-thumb {
+  width: 25px!important;
+  border-radius: 1px!important;
+}
+div[id="controlersPanel"]{
+  text-align:center!important;
+  }
+div[id="controlers1"]{
+ margin:10px!important;
+  }
+}
+@media (min-width: 550px) {
+  .mobile {
+margin: 20px!important;
+float:left;
+  }
+.mobile-bis {
+margin : 20px!important;
+}
 }
