@@ -76,3 +76,7 @@ thead {
     padding-right: 0px !important;
     width: 100%;
 }
+
+#topContainer, .warning-migration {
+    margin-bottom: 2px;
+}
